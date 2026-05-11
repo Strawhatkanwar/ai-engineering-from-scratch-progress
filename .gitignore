@@ -53,3 +53,9 @@ mlruns/
 *.bin
 *.h5
 .gstack/
+
+# My local AI Setup
+.venv
+*.pt
+*.pth
+*.safetensors

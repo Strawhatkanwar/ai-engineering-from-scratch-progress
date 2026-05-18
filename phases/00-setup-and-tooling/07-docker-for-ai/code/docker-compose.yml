@@ -11,11 +11,12 @@ services:
               count: all
               capabilities: [gpu]
     volumes:
-      - ../../../:/workspace
+      - ../../../../:/workspace
       - ~/models:/models
       - ~/datasets:/data
     ports:
       - "8888:8888"
+      - "5000:5000"
     stdin_open: true
     tty: true
     command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root

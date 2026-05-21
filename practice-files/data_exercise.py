@@ -38,6 +38,6 @@ train = split["train"]
 
 val_test = temp.train_test_split(test_size=0.5, seed=42)
 val = val_test["train"]
-test = val["test"]
+test = val_test["test"]
 print(f" total size : {data_1.shape}, train size: {train.shape}, val size: {val.shape}, Test size: {test.shape}")
 

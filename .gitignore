@@ -61,3 +61,11 @@ mlruns/
 *.safetensors
 data/
 models/
+
+## adding for images not to track
+*.png
+*.jpg
+*.jpeg
+*.lprof
+runs/
+.python-version

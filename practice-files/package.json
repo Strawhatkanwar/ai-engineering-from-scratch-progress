@@ -1,0 +1,29 @@
+{
+  "name": "ai-engineering-from-scratch",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strawhatkanwar/ai-engineering-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strawhatkanwar/ai-engineering-from-scratch/issues"
+  },
+  "homepage": "https://github.com/Strawhatkanwar/ai-engineering-from-scratch#readme",
+  "dependencies": {
+    "@google/genai": "^2.0.1",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

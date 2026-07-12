@@ -69,3 +69,10 @@ models/
 *.lprof
 runs/
 .python-version
+phases/00-setup-and-tooling/07-docker-for-ai/code/flask.ipyng
+practice-files/tensor_test.ipynb
+practice-files/practice.py
+practice-files/phase02/practice_file.ipynb
+practice-files/phase01/tensors.ipynb
+phases/00-setup-and-tooling/07-docker-for-ai/code/flask.ipynb
+outputs/prompt-spectral-analyzer.md

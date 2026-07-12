@@ -1,6 +1,6 @@
 FROM nvidia/cuda:12.6.0-devel-ubuntu24.04 
 # changed to 12.6.0 so that python 3.12 works.
-# start fromm official CUDA image with ubunti 22.04 and CUDA 12.4.1. so we're building on top of it.
+# start fromm official CUDA image with ubuntu 22.04 and CUDA 12.4.1. so we're building on top of it.
 # so instead of starting from a blank state we are building on top of official image.
 
 # setting up environment variables to be non-interactive and send python output to my terminal
@@ -43,10 +43,12 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir \
     numpy \
     pandas \
+    polars \
     scikit-learn \
     matplotlib \
     jupyter \
     transformers \
+    peft \
     datasets \
     accelerate \
     safetensors \

@@ -12,6 +12,7 @@ services:
               capabilities: [gpu]
     volumes:
       - ../../../../:/workspace
+      - ~/ds-poc:/ds-poc
       - ~/models:/models
       - ~/datasets:/data
     ports:

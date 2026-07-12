@@ -1,0 +1,17 @@
+[project]
+name = "ai-engineering-from-scratch"
+version = "0.1.0"
+description = "Learning AI with hands on practice"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.0.0",
+    "matplotlib>=3.8",
+    "scikit-learn>=1.4",
+    "jupyter>=1.0",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+torch = ["torch>=2.3", "torchvision>=0.18"]
+llm = ["anthropic>=0.39", "openai>=1.50", "google-generativeai>=0.8.5"]

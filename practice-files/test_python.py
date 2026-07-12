@@ -1,15 +1,16 @@
-# import torch
+import torch
+import time
 
-# print(f"Gpu is available: {torch.cuda.is_available()}")
-# print(f"Cuda version is : {torch.version.cuda}")
-# if torch.cuda.is_available():
-#     print(f"GPU: {torch.cuda.get_device_name(0)}")
-#     print(f"Memory of gpu is : {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
+
+print(f"Gpu is available: {torch.cuda.is_available()}")
+print(f"Cuda version is : {torch.version.cuda}")
+if torch.cuda.is_available():
+    print(f"GPU: {torch.cuda.get_device_name(0)}")
+    print(f"Memory of gpu is : {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
 
 
 # checking memory
-import torch
-import time
+
 
 size = 5000
 

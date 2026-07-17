@@ -1,6 +1,7 @@
 '''
-Here i'm implementing SVM from scratch and experiment with various dataset to see how support vectors
+Here i'm built SVM from scratch and experiment with various dataset to see how support vectors
 are formed, How introducing gradients help svm converge with hinge loss.
+Also, i built SVR with epsilon-insensitive loss and fit a non-linear funtion to it(sin(x) + noise)
 '''
 import math
 import random
